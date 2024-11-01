@@ -1,0 +1,29 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "Appartement moderne au centre-ville",
+      "description": "Un appartement de 3 pièces avec vue sur la ville, situé proche des commodités.",
+      "price": 750,
+      "location": {
+        "city": "Paris",
+        "neighborhood": "Montmartre",
+        "latitude": 48.8867,
+        "longitude": 2.3431
+      },
+      "features": {
+        "rooms": 3,
+        "bathrooms": 1,
+        "area": 65,
+        "furnished": true
+      },
+      "photos": [
+        "https://example.com/photo1.jpg",
+        "https://example.com/photo2.jpg"
+      ],
+      "type": "Appartement",
+      "available": true,
+      "postedDate": "2024-10-31"
+    }
+  ]
+}
