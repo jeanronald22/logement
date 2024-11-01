@@ -18,12 +18,237 @@
         "furnished": true
       },
       "photos": [
-        "https://example.com/photo1.jpg",
-        "https://example.com/photo2.jpg"
+        "../assets/images/1.jpg",
+        "../assets/images/12.jpg"
       ],
       "type": "Appartement",
       "available": true,
       "postedDate": "2024-10-31"
+    },
+    {
+      "id": 2,
+      "title": "Studio avec terrasse",
+      "description": "Studio lumineux avec terrasse, idéal pour étudiants.",
+      "price": 500,
+      "location": {
+        "city": "Lyon",
+        "neighborhood": "Part-Dieu",
+        "latitude": 45.76,
+        "longitude": 4.8422
+      },
+      "features": {
+        "rooms": 1,
+        "bathrooms": 1,
+        "area": 30,
+        "furnished": false
+      },
+      "photos": [
+        "https://example.com/photo3.jpg",
+        "https://example.com/photo4.jpg"
+      ],
+      "type": "Studio",
+      "available": true,
+      "postedDate": "2024-10-25"
+    },
+    {
+      "id": 3,
+      "title": "Maison avec jardin",
+      "description": "Maison familiale avec grand jardin et garage.",
+      "price": 1200,
+      "location": {
+        "city": "Bordeaux",
+        "neighborhood": "Caudéran",
+        "latitude": 44.8333,
+        "longitude": -0.6057
+      },
+      "features": {
+        "rooms": 5,
+        "bathrooms": 2,
+        "area": 120,
+        "furnished": true
+      },
+      "photos": [
+        "https://example.com/photo5.jpg",
+        "https://example.com/photo6.jpg"
+      ],
+      "type": "Maison",
+      "available": false,
+      "postedDate": "2024-10-20"
+    },
+    {
+      "id": 4,
+      "title": "Appartement en bord de mer",
+      "description": "Appartement avec vue sur la mer, accès direct à la plage.",
+      "price": 900,
+      "location": {
+        "city": "Nice",
+        "neighborhood": "Promenade des Anglais",
+        "latitude": 43.6951,
+        "longitude": 7.2654
+      },
+      "features": {
+        "rooms": 2,
+        "bathrooms": 1,
+        "area": 50,
+        "furnished": true
+      },
+      "photos": [
+        "https://example.com/photo7.jpg",
+        "https://example.com/photo8.jpg"
+      ],
+      "type": "Appartement",
+      "available": true,
+      "postedDate": "2024-10-18"
+    },
+    {
+      "id": 5,
+      "title": "Loft spacieux en centre-ville",
+      "description": "Loft avec mezzanine, idéal pour un couple ou une petite famille.",
+      "price": 1100,
+      "location": {
+        "city": "Marseille",
+        "neighborhood": "Vieux-Port",
+        "latitude": 43.2965,
+        "longitude": 5.3698
+      },
+      "features": {
+        "rooms": 4,
+        "bathrooms": 2,
+        "area": 100,
+        "furnished": false
+      },
+      "photos": [
+        "https://example.com/photo9.jpg",
+        "https://example.com/photo10.jpg"
+      ],
+      "type": "Loft",
+      "available": true,
+      "postedDate": "2024-10-15"
+    },
+    {
+      "id": 6,
+      "title": "Chambre dans colocation",
+      "description": "Chambre en colocation dans un grand appartement.",
+      "price": 400,
+      "location": {
+        "city": "Toulouse",
+        "neighborhood": "Capitole",
+        "latitude": 43.6045,
+        "longitude": 1.4442
+      },
+      "features": {
+        "rooms": 1,
+        "bathrooms": 1,
+        "area": 15,
+        "furnished": true
+      },
+      "photos": [
+        "https://example.com/photo11.jpg",
+        "https://example.com/photo12.jpg"
+      ],
+      "type": "Chambre",
+      "available": true,
+      "postedDate": "2024-10-10"
+    },
+    {
+      "id": 7,
+      "title": "Villa avec piscine",
+      "description": "Villa luxueuse avec piscine et vue panoramique.",
+      "price": 3000,
+      "location": {
+        "city": "Cannes",
+        "neighborhood": "Croix des Gardes",
+        "latitude": 43.5528,
+        "longitude": 7.0174
+      },
+      "features": {
+        "rooms": 6,
+        "bathrooms": 4,
+        "area": 250,
+        "furnished": true
+      },
+      "photos": [
+        "https://example.com/photo13.jpg",
+        "https://example.com/photo14.jpg"
+      ],
+      "type": "Villa",
+      "available": false,
+      "postedDate": "2024-10-05"
+    },
+    {
+      "id": 8,
+      "title": "Appartement avec balcon",
+      "description": "Appartement calme avec balcon, proche de toutes commodités.",
+      "price": 850,
+      "location": {
+        "city": "Nantes",
+        "neighborhood": "Bouffay",
+        "latitude": 47.2184,
+        "longitude": -1.5536
+      },
+      "features": {
+        "rooms": 3,
+        "bathrooms": 1,
+        "area": 70,
+        "furnished": false
+      },
+      "photos": [
+        "https://example.com/photo15.jpg",
+        "https://example.com/photo16.jpg"
+      ],
+      "type": "Appartement",
+      "available": true,
+      "postedDate": "2024-10-02"
+    },
+    {
+      "id": 9,
+      "title": "Maison de campagne",
+      "description": "Maison de charme en pleine nature, parfait pour se ressourcer.",
+      "price": 950,
+      "location": {
+        "city": "Grenoble",
+        "neighborhood": "Saint-Martin-d'Uriage",
+        "latitude": 45.1852,
+        "longitude": 5.7336
+      },
+      "features": {
+        "rooms": 4,
+        "bathrooms": 2,
+        "area": 90,
+        "furnished": true
+      },
+      "photos": [
+        "https://example.com/photo17.jpg",
+        "https://example.com/photo18.jpg"
+      ],
+      "type": "Maison",
+      "available": false,
+      "postedDate": "2024-09-30"
+    },
+    {
+      "id": 10,
+      "title": "Penthouse avec terrasse",
+      "description": "Penthouse haut de gamme avec vue sur la ville.",
+      "price": 5000,
+      "location": {
+        "city": "Lille",
+        "neighborhood": "Vieux-Lille",
+        "latitude": 50.632,
+        "longitude": 3.0586
+      },
+      "features": {
+        "rooms": 5,
+        "bathrooms": 3,
+        "area": 180,
+        "furnished": true
+      },
+      "photos": [
+        "https://example.com/photo19.jpg",
+        "https://example.com/photo20.jpg"
+      ],
+      "type": "Penthouse",
+      "available": true,
+      "postedDate": "2024-09-25"
     }
   ]
 }
