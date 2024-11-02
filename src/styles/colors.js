@@ -6,4 +6,6 @@ export const colors = {
   vert: "#00C853",
   orange: "#FF6D00",
   rouge: "#FF3D00",
+  inputBg: "#ebeeee",
+  bleu: "#0f0e4b",
 };

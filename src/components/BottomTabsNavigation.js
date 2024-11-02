@@ -12,6 +12,7 @@ const BottomTabsNavigation = ({route}) => {
     return (
       <tabs.Navigator
         screenOptions={({ route }) => ({
+          //headerShown: false,
           tabBarIcon: ({ focused, color, size }) => {
             color = focused ? colors.bleuFonce : colors.gris;
             size = focused ? 28 : 24;
@@ -35,7 +36,7 @@ const BottomTabsNavigation = ({route}) => {
       >
         <tabs.Screen name="Home" component={HomeScreen} />
         <tabs.Screen name="Favorite" component={FavoriteScreen} />
-        <tabs.Screen name="Profile" component={ProfileScreen} />
+        <tabs.Screen name="Profile" component={ProfileScreen} options={{headerShown:false}}/>
       </tabs.Navigator>
     );
 }
